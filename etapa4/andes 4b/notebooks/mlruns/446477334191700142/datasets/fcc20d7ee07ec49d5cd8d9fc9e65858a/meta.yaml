@@ -1,0 +1,14 @@
+digest: f65a1e42
+name: dataset
+profile: '{"num_rows": 3305, "num_elements": 33050}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "price_per_guest", "required":
+  true}, {"type": "double", "name": "accommodates", "required": true}, {"type": "string",
+  "name": "room_type", "required": true}, {"type": "string", "name": "neighbourhood_cleansed",
+  "required": true}, {"type": "double", "name": "minimum_nights", "required": true},
+  {"type": "double", "name": "availability_365", "required": true}, {"type": "double",
+  "name": "estimated_revenue_l365d", "required": true}, {"type": "long", "name": "host_is_superhost",
+  "required": true}, {"type": "double", "name": "host_response_rate", "required":
+  true}, {"type": "double", "name": "host_acceptance_rate", "required": true}]}'
+source: '{"tags": {"mlflow.user": "pitig", "mlflow.source.name": "C:\\Users\\pitig\\AppData\\Roaming\\Python\\Python313\\site-packages\\ipykernel_launcher.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code
