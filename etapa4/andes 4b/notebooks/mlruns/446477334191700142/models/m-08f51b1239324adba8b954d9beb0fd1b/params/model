@@ -1,0 +1,2 @@
+MLPClassifier(batch_size=64, early_stopping=True, hidden_layer_sizes=(128, 64),
+              random_state=42)

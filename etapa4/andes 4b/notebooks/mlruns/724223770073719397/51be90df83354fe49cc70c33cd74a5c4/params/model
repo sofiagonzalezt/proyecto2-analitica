@@ -1,0 +1,1 @@
+MLPRegressor(early_stopping=True, hidden_layer_sizes=(64, 32), random_state=42)

@@ -1,0 +1,9 @@
+[('preprocess', ColumnTransformer(transformers=[('num', StandardScaler(),
+                                 ['accommodates', 'minimum_nights',
+                                  'availability_365',
+                                  'estimated_occupancy_l365d',
+                                  'host_is_superhost', 'host_response_rate',
+                                  'host_acceptance_rate']),
+                                ('cat', OneHotEncoder(handle_unknown='ignore'),
+                                 ['room_type', 'neighbourhood_cleansed'])])), ('model', MLPClassifier(batch_size=64, early_stopping=True, hidden_layer_sizes=(128, 64),
+              random_state=42))]

@@ -1,0 +1,1 @@
+{'model__hidden_layer_sizes': [(32, 16), (64, 32), (128, 64), (64, 64, 32)], 'model__alpha': [1e-05, 0.0001, 0.001, 0.01], 'model__learning_rate_init': [0.0001, 0.0005, 0.001], 'model__batch_size': [32, 64, 128]}

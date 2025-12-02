@@ -1,0 +1,7 @@
+[('preprocess', ColumnTransformer(transformers=[('num', StandardScaler(),
+                                 ['accommodates', 'minimum_nights',
+                                  'availability_365', 'host_is_superhost',
+                                  'host_response_rate',
+                                  'host_acceptance_rate']),
+                                ('cat', OneHotEncoder(handle_unknown='ignore'),
+                                 ['room_type', 'neighbourhood_cleansed'])])), ('model', MLPRegressor(early_stopping=True, random_state=42))]

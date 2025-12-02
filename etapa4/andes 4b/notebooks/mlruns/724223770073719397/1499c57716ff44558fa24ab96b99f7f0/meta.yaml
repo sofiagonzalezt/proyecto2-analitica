@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/pitig/Downloads/proyecto2%20analitica/etapa4/andes%204b/notebooks/mlruns/724223770073719397/1499c57716ff44558fa24ab96b99f7f0/artifacts
+end_time: 1764678305715
+entry_point_name: ''
+experiment_id: '724223770073719397'
+lifecycle_stage: active
+run_id: 1499c57716ff44558fa24ab96b99f7f0
+run_name: sedate-boar-349
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764678291828
+status: 3
+tags: []
+user_id: pitig

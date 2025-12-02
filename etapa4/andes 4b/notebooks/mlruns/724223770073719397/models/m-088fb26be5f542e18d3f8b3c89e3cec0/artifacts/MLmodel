@@ -1,0 +1,35 @@
+artifact_path: file:///c:/Users/pitig/Downloads/proyecto2%20analitica/etapa4/andes%204b/notebooks/mlruns/724223770073719397/models/m-088fb26be5f542e18d3f8b3c89e3cec0/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+is_signature_from_type_hint: false
+mlflow_version: 3.6.0
+model_id: m-088fb26be5f542e18d3f8b3c89e3cec0
+model_size_bytes: 104643
+model_uuid: m-088fb26be5f542e18d3f8b3c89e3cec0
+prompts: null
+run_id: 51be90df83354fe49cc70c33cd74a5c4
+signature:
+  inputs: '[{"type": "double", "name": "accommodates", "required": true}, {"type":
+    "string", "name": "room_type", "required": true}, {"type": "string", "name": "neighbourhood_cleansed",
+    "required": true}, {"type": "double", "name": "minimum_nights", "required": true},
+    {"type": "double", "name": "availability_365", "required": true}, {"type": "double",
+    "name": "estimated_occupancy_l365d", "required": true}, {"type": "long", "name":
+    "host_is_superhost", "required": true}, {"type": "double", "name": "host_response_rate",
+    "required": true}, {"type": "double", "name": "host_acceptance_rate", "required":
+    true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-12-02 03:08:51.370369'

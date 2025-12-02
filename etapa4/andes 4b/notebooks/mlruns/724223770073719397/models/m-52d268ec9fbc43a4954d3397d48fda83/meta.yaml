@@ -1,0 +1,10 @@
+artifact_location: file:///c:/Users/pitig/Downloads/proyecto2%20analitica/etapa4/andes%204b/notebooks/mlruns/724223770073719397/models/m-52d268ec9fbc43a4954d3397d48fda83/artifacts
+creation_timestamp: 1764678405875
+experiment_id: '724223770073719397'
+last_updated_timestamp: 1764678412796
+model_id: m-52d268ec9fbc43a4954d3397d48fda83
+model_type: null
+name: model
+source_run_id: edef663f49d4422b89427a47bbae4c29
+status: 2
+status_message: null

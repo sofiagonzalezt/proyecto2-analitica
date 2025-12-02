@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/pitig/Downloads/proyecto2%20analitica/etapa4/andes%204b/notebooks/mlruns/724223770073719397/8e76427696e84ca0aebc6e2d7c326647/artifacts
+end_time: 1764678419472
+entry_point_name: ''
+experiment_id: '724223770073719397'
+lifecycle_stage: active
+run_id: 8e76427696e84ca0aebc6e2d7c326647
+run_name: receptive-lamb-848
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764678317556
+status: 3
+tags: []
+user_id: pitig
