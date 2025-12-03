@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/mitirado/Desktop/7%20SEMESTRE/airbnb_dashboard/mlruns/502467658519079589/db67e2cbd8c348dfaedc16f89a93433b/artifacts
+end_time: 1764649438831
+entry_point_name: ''
+experiment_id: '502467658519079589'
+lifecycle_stage: active
+run_id: db67e2cbd8c348dfaedc16f89a93433b
+run_name: beautiful-vole-490
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764649358335
+status: 3
+tags: []
+user_id: mitirado

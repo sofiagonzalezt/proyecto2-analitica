@@ -1,0 +1,10 @@
+artifact_location: file:///Users/mitirado/Desktop/7%20SEMESTRE/airbnb_dashboard/mlruns/323449141504565997/models/m-44e365c6ff6c4c0bbba3e459e9609107/artifacts
+creation_timestamp: 1764649031090
+experiment_id: '323449141504565997'
+last_updated_timestamp: 1764649038492
+model_id: m-44e365c6ff6c4c0bbba3e459e9609107
+model_type: null
+name: model
+source_run_id: 42399d86cd2c4efabd6c86161352de31
+status: 2
+status_message: null

@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/mitirado/Desktop/7%20SEMESTRE/airbnb_dashboard/mlruns/323449141504565997/4fabc12ef1ce41958bcd5a8517a60a50/artifacts
+end_time: 1764649254263
+entry_point_name: ''
+experiment_id: '323449141504565997'
+lifecycle_stage: active
+run_id: 4fabc12ef1ce41958bcd5a8517a60a50
+run_name: gaudy-newt-24
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764649050847
+status: 3
+tags: []
+user_id: mitirado

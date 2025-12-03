@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/mitirado/Desktop/7%20SEMESTRE/airbnb_dashboard/mlruns/502467658519079589/3e6a8238ebb848b2939411ee202397a8/artifacts
+end_time: 1764649439625
+entry_point_name: ''
+experiment_id: '502467658519079589'
+lifecycle_stage: active
+run_id: 3e6a8238ebb848b2939411ee202397a8
+run_name: mlp_clasificacion_tuning
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764649358335
+status: 3
+tags: []
+user_id: mitirado

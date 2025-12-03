@@ -1,0 +1,3 @@
+{
+  "r2_score_X_test": "r2_score(y_true=y_reg_test, y_pred=y_reg_pred_log)"
+}
