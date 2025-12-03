@@ -1,0 +1,9 @@
+ColumnTransformer(transformers=[('num', StandardScaler(),
+                                 ['price_per_guest', 'accommodates',
+                                  'minimum_nights', 'availability_365',
+                                  'estimated_occupancy_l365d',
+                                  'estimated_revenue_l365d',
+                                  'host_is_superhost', 'host_response_rate',
+                                  'host_acceptance_rate']),
+                                ('cat', OneHotEncoder(handle_unknown='ignore'),
+                                 ['room_type', 'neighbourhood_cleansed'])])

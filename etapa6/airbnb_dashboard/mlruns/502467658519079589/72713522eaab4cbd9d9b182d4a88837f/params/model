@@ -1,0 +1,1 @@
+MLPClassifier(early_stopping=True, random_state=42)

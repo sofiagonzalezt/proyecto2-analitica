@@ -1,0 +1,10 @@
+artifact_location: file:///Users/mitirado/Desktop/7%20SEMESTRE/airbnb_dashboard/mlruns/502467658519079589/models/m-ea2cee56e62c43ae8e3705f7a4469330/artifacts
+creation_timestamp: 1764649433228
+experiment_id: '502467658519079589'
+last_updated_timestamp: 1764649438814
+model_id: m-ea2cee56e62c43ae8e3705f7a4469330
+model_type: null
+name: best_estimator
+source_run_id: 3e6a8238ebb848b2939411ee202397a8
+status: 2
+status_message: null
