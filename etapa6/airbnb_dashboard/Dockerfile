@@ -7,6 +7,11 @@ ENV PYTHONUNBUFFERED=1
 # Directorio de trabajo dentro del contenedor
 WORKDIR /app
 
+# Instalar dependencias del sistema
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    gcc \
+    && rm -rf /var/lib/apt/lists/*
+
 # Copiar requirements e instalar dependencias
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
@@ -17,5 +22,5 @@ COPY . .
 # Puerto donde corre Dash
 EXPOSE 8050
 
-# Comando para ejecutar la app
-CMD ["python", "app.py"]
+# Ejecutar con Gunicorn (servidor WSGI de producción)
+CMD ["gunicorn", "--bind", "0.0.0.0:8050", "--workers", "4", "--worker-class", "sync", "--timeout", "120", "--access-logfile", "-", "--error-logfile", "-", "app:server"]
